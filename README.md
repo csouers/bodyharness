@@ -15,6 +15,6 @@ This project uses a comma.ai panda (white or grey) for the brains. The supported
 
 As usual, anything on this repository is to be used AT YOUR OWN RISK! You maintain all liability.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTEzMzYxMSwtMTEwMjgwNDYyNywxNT
-MyNDM0Mjk2XX0=
+eyJoaXN0b3J5IjpbLTE4NDM3OTQyNTAsLTIxNTEzMzYxMSwtMT
+EwMjgwNDYyNywxNTMyNDM0Mjk2XX0=
 -->
