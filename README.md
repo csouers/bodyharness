@@ -1,5 +1,5 @@
 
-# bcm_harness
+# bcmharness
 
 ## Get access to your body control module's can bus (or multiples),k-line, l-line, and other communications lines without damaging or back-probing the vehicle's electrical wiring.
 
