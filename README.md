@@ -13,6 +13,7 @@ This project uses a comma.ai panda (white or grey) for the brains. The supported
 
 ![image info](./main_preview.png)
 
+As usual, anything on this repository is to be used AT YOUR OWN RISK! You hold myself, project contri
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzM2ODk1MywxNTMyNDM0Mjk2XX0=
+eyJoaXN0b3J5IjpbLTExMDI4MDQ2MjcsMTUzMjQzNDI5Nl19
 -->
