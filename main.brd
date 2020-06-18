@@ -146,8 +146,8 @@
 <wire x1="50.851" y1="0" x2="50.851" y2="36.82" width="0" layer="20"/>
 <wire x1="50.851" y1="36.82" x2="0" y2="36.82" width="0" layer="20"/>
 <wire x1="0" y1="36.82" x2="0" y2="0" width="0" layer="20"/>
-<text x="25.4" y="26.924" size="1.778" layer="22" font="vector" rot="MR0" align="center">BCM Interceptor - Main Board</text>
-<text x="25.4" y="18.415" size="1.778" layer="22" font="vector" rot="MR0" align="center">github.com/csouers/bcmintercept</text>
+<text x="25.273" y="26.924" size="1.778" layer="22" font="vector" rot="MR0" align="center">BCM harness - Main Board</text>
+<text x="25.4" y="18.415" size="1.778" layer="22" font="vector" rot="MR0" align="center">github.com/csouers/bcmharness</text>
 <text x="47.879" y="17.399" size="1.778" layer="21" font="vector" rot="R90">csouers - 2020</text>
 <hole x="1.27" y="35.56" drill="1"/>
 <hole x="49.53" y="35.56" drill="1"/>
@@ -464,16 +464,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="50.8" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<wire x1="27.375" y1="22.724" x2="30.48" y2="25.4" width="0.1524" layer="16"/>
-<via x="30.48" y="25.4" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="L_LINE">
 <contactref element="PANDA" pad="15"/>
 <contactref element="INTERCONNECT" pad="14"/>
-<wire x1="16.2306" y1="14.7066" x2="16.2306" y2="11.2014" width="0.1524" layer="16"/>
-<wire x1="9.2202" y1="21.717" x2="16.2306" y2="14.7066" width="0.1524" layer="16"/>
-<wire x1="9.2202" y1="24.8412" x2="9.2202" y2="21.717" width="0.1524" layer="16"/>
-<wire x1="15.4686" y1="31.0896" x2="9.2202" y2="24.8412" width="0.1524" layer="16"/>
+<wire x1="16.2306" y1="15.1638" x2="16.2306" y2="11.2014" width="0.1524" layer="16"/>
+<wire x1="9.525" y1="21.8694" x2="16.2306" y2="15.1638" width="0.1524" layer="16"/>
+<wire x1="9.525" y1="24.9936" x2="9.525" y2="21.8694" width="0.1524" layer="16"/>
+<wire x1="15.4686" y1="30.9372" x2="9.525" y2="24.9936" width="0.1524" layer="16"/>
+<wire x1="15.4686" y1="31.0896" x2="15.4686" y2="30.9372" width="0.1524" layer="16"/>
 <wire x1="16.2306" y1="11.2014" x2="16.256" y2="11.16" width="0.1524" layer="16"/>
 <wire x1="15.4686" y1="31.0896" x2="15.525" y2="31.124" width="0.1524" layer="16"/>
 </signal>
@@ -517,70 +516,82 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="4.2672" y1="11.1252" x2="4.256" y2="11.16" width="0.8128" layer="1"/>
 <wire x1="43.2816" y1="12.2682" x2="44.0436" y2="12.2682" width="0.8128" layer="16"/>
 <wire x1="39.5478" y1="8.5344" x2="43.2816" y2="12.2682" width="0.8128" layer="16"/>
-<wire x1="29.718" y1="8.5344" x2="39.5478" y2="8.5344" width="0.8128" layer="16"/>
-<wire x1="28.8798" y1="7.6962" x2="29.718" y2="8.5344" width="0.8128" layer="16"/>
-<wire x1="5.6388" y1="7.6962" x2="28.8798" y2="7.6962" width="0.8128" layer="16"/>
-<wire x1="4.191" y1="9.144" x2="5.6388" y2="7.6962" width="0.8128" layer="16"/>
+<wire x1="32.2326" y1="8.5344" x2="39.5478" y2="8.5344" width="0.8128" layer="16"/>
+<wire x1="31.0134" y1="7.3152" x2="32.2326" y2="8.5344" width="0.8128" layer="16"/>
+<wire x1="6.0198" y1="7.3152" x2="31.0134" y2="7.3152" width="0.8128" layer="16"/>
+<wire x1="4.191" y1="9.144" x2="6.0198" y2="7.3152" width="0.8128" layer="16"/>
 <wire x1="44.0436" y1="12.2682" x2="44.069" y2="12.319" width="0.8128" layer="16"/>
 <wire x1="4.191" y1="9.144" x2="4.256" y2="9.16" width="0.8128" layer="16"/>
-<wire x1="11.5062" y1="28.0416" x2="11.5062" y2="31.0896" width="0.8128" layer="16"/>
-<wire x1="4.2672" y1="20.8026" x2="11.5062" y2="28.0416" width="0.8128" layer="16"/>
-<wire x1="4.2672" y1="11.2014" x2="4.2672" y2="20.8026" width="0.8128" layer="16"/>
+<wire x1="11.5062" y1="27.8892" x2="11.5062" y2="31.0896" width="0.8128" layer="16"/>
+<wire x1="4.2672" y1="20.6502" x2="11.5062" y2="27.8892" width="0.8128" layer="16"/>
+<wire x1="4.2672" y1="11.2014" x2="4.2672" y2="20.6502" width="0.8128" layer="16"/>
 <wire x1="11.5062" y1="31.0896" x2="11.575" y2="31.124" width="0.8128" layer="16"/>
 <wire x1="4.2672" y1="11.2014" x2="4.256" y2="11.16" width="0.8128" layer="16"/>
 </signal>
 <signal name="BCAN_H">
 <contactref element="PANDA" pad="12"/>
 <contactref element="INTERCONNECT" pad="10"/>
-<wire x1="9.525" y1="21.8694" x2="20.193" y2="11.2014" width="0.1524" layer="16"/>
-<wire x1="9.525" y1="23.622" x2="9.525" y2="21.8694" width="0.1524" layer="16"/>
-<wire x1="14.9352" y1="29.0322" x2="9.525" y2="23.622" width="0.1524" layer="16"/>
-<wire x1="25.2984" y1="29.0322" x2="14.9352" y2="29.0322" width="0.1524" layer="16"/>
-<wire x1="27.3558" y1="31.0896" x2="25.2984" y2="29.0322" width="0.1524" layer="16"/>
-<wire x1="20.193" y1="11.2014" x2="20.256" y2="11.16" width="0.1524" layer="16"/>
-<wire x1="27.3558" y1="31.0896" x2="27.375" y2="31.124" width="0.1524" layer="16"/>
+<wire x1="19.812" y1="11.2014" x2="20.193" y2="11.2014" width="0.1524" layer="1"/>
+<wire x1="17.0688" y1="13.9446" x2="19.812" y2="11.2014" width="0.1524" layer="1"/>
+<wire x1="15.6972" y1="13.9446" x2="17.0688" y2="13.9446" width="0.1524" layer="1"/>
+<wire x1="15.6972" y1="15.24" x2="15.6972" y2="13.9446" width="0.1524" layer="16"/>
+<wire x1="8.9916" y1="21.9456" x2="15.6972" y2="15.24" width="0.1524" layer="16"/>
+<wire x1="8.9916" y1="23.7744" x2="8.9916" y2="21.9456" width="0.1524" layer="16"/>
+<wire x1="9.2202" y1="23.7744" x2="8.9916" y2="23.7744" width="0.1524" layer="1"/>
+<wire x1="14.478" y1="29.0322" x2="9.2202" y2="23.7744" width="0.1524" layer="1"/>
+<wire x1="25.2984" y1="29.0322" x2="14.478" y2="29.0322" width="0.1524" layer="1"/>
+<wire x1="27.3558" y1="31.0896" x2="25.2984" y2="29.0322" width="0.1524" layer="1"/>
+<wire x1="20.193" y1="11.2014" x2="20.256" y2="11.16" width="0.1524" layer="1"/>
+<wire x1="27.3558" y1="31.0896" x2="27.375" y2="31.124" width="0.1524" layer="1"/>
+<via x="15.6972" y="13.9446" extent="1-16" drill="0.254"/>
+<via x="8.9916" y="23.7744" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="BCAN_L">
 <contactref element="PANDA" pad="13"/>
 <contactref element="INTERCONNECT" pad="9"/>
-<wire x1="19.8882" y1="9.144" x2="20.193" y2="9.144" width="0.1524" layer="1"/>
-<wire x1="18.4404" y1="7.6962" x2="19.8882" y2="9.144" width="0.1524" layer="1"/>
-<wire x1="3.6576" y1="7.6962" x2="18.4404" y2="7.6962" width="0.1524" layer="1"/>
-<wire x1="2.8194" y1="8.5344" x2="3.6576" y2="7.6962" width="0.1524" layer="1"/>
-<wire x1="2.8194" y1="25.2984" x2="2.8194" y2="8.5344" width="0.1524" layer="1"/>
-<wire x1="10.7442" y1="33.2232" x2="2.8194" y2="25.2984" width="0.1524" layer="1"/>
-<wire x1="21.336" y1="33.2232" x2="10.7442" y2="33.2232" width="0.1524" layer="1"/>
-<wire x1="23.3934" y1="31.1658" x2="21.336" y2="33.2232" width="0.1524" layer="1"/>
-<wire x1="20.193" y1="9.144" x2="20.256" y2="9.16" width="0.1524" layer="1"/>
-<wire x1="23.3934" y1="31.1658" x2="23.425" y2="31.124" width="0.1524" layer="1"/>
+<wire x1="20.6502" y1="9.144" x2="20.2692" y2="9.144" width="0.1524" layer="16"/>
+<wire x1="21.7932" y1="8.001" x2="20.6502" y2="9.144" width="0.1524" layer="16"/>
+<wire x1="30.7848" y1="8.001" x2="21.7932" y2="8.001" width="0.1524" layer="16"/>
+<wire x1="36.7284" y1="13.9446" x2="30.7848" y2="8.001" width="0.1524" layer="16"/>
+<wire x1="38.1" y1="13.9446" x2="36.7284" y2="13.9446" width="0.1524" layer="16"/>
+<wire x1="39.3192" y1="15.1638" x2="38.1" y2="13.9446" width="0.1524" layer="16"/>
+<wire x1="39.3192" y1="16.002" x2="39.3192" y2="15.1638" width="0.1524" layer="16"/>
+<wire x1="41.6052" y1="18.288" x2="39.3192" y2="16.002" width="0.1524" layer="16"/>
+<wire x1="41.6052" y1="23.6982" x2="41.6052" y2="18.288" width="0.1524" layer="16"/>
+<wire x1="36.2712" y1="29.0322" x2="41.6052" y2="23.6982" width="0.1524" layer="16"/>
+<wire x1="25.527" y1="29.0322" x2="36.2712" y2="29.0322" width="0.1524" layer="16"/>
+<wire x1="23.4696" y1="31.0896" x2="25.527" y2="29.0322" width="0.1524" layer="16"/>
+<wire x1="20.2692" y1="9.144" x2="20.256" y2="9.16" width="0.1524" layer="16"/>
+<wire x1="23.4696" y1="31.0896" x2="23.425" y2="31.124" width="0.1524" layer="16"/>
 </signal>
 <signal name="FCAN_A_H">
 <contactref element="ETHERNET" pad="4"/>
 <contactref element="PANDA" pad="6"/>
 <contactref element="INTERCONNECT" pad="2"/>
-<wire x1="39.0144" y1="14.859" x2="40.259" y2="14.859" width="0.1524" layer="16"/>
-<wire x1="37.4142" y1="13.2588" x2="39.0144" y2="14.859" width="0.1524" layer="16"/>
-<wire x1="30.3276" y1="13.2588" x2="37.4142" y2="13.2588" width="0.1524" layer="16"/>
-<wire x1="28.2702" y1="11.2014" x2="29.6418" y2="12.573" width="0.1524" layer="16"/>
-<wire x1="29.6418" y1="12.573" x2="30.3276" y2="13.2588" width="0.1524" layer="16"/>
-<wire x1="28.2702" y1="11.2014" x2="28.256" y2="11.16" width="0.1524" layer="16"/>
-<wire x1="29.6418" y1="12.573" x2="19.5072" y2="22.7076" width="0.1524" layer="16"/>
+<wire x1="39.0144" y1="14.859" x2="40.259" y2="14.859" width="0.1524" layer="1"/>
+<wire x1="37.4142" y1="13.2588" x2="39.0144" y2="14.859" width="0.1524" layer="1"/>
+<wire x1="30.3276" y1="13.2588" x2="37.4142" y2="13.2588" width="0.1524" layer="1"/>
+<wire x1="28.2702" y1="11.2014" x2="30.3276" y2="13.2588" width="0.1524" layer="1"/>
+<wire x1="28.2702" y1="11.2014" x2="28.256" y2="11.16" width="0.1524" layer="1"/>
+<wire x1="19.5072" y1="19.8882" x2="19.5072" y2="22.7076" width="0.1524" layer="16"/>
+<wire x1="28.194" y1="11.2014" x2="19.5072" y2="19.8882" width="0.1524" layer="16"/>
 <wire x1="19.5072" y1="22.7076" x2="19.475" y2="22.724" width="0.1524" layer="16"/>
+<wire x1="28.194" y1="11.2014" x2="28.256" y2="11.16" width="0.1524" layer="16"/>
 </signal>
 <signal name="FCAN_A_L">
 <contactref element="ETHERNET" pad="2"/>
 <contactref element="PANDA" pad="14"/>
 <contactref element="INTERCONNECT" pad="1"/>
-<wire x1="33.909" y1="14.859" x2="37.719" y2="14.859" width="0.1524" layer="1"/>
-<wire x1="28.2702" y1="9.2202" x2="33.909" y2="14.859" width="0.1524" layer="1"/>
-<wire x1="28.2702" y1="9.2202" x2="28.256" y2="9.16" width="0.1524" layer="1"/>
-<wire x1="20.574" y1="31.0896" x2="19.5072" y2="31.0896" width="0.1524" layer="1"/>
-<wire x1="26.8986" y1="24.765" x2="20.574" y2="31.0896" width="0.1524" layer="1"/>
-<wire x1="40.0812" y1="24.765" x2="26.8986" y2="24.765" width="0.1524" layer="1"/>
-<wire x1="41.3004" y1="23.5458" x2="40.0812" y2="24.765" width="0.1524" layer="1"/>
-<wire x1="41.3004" y1="18.4404" x2="41.3004" y2="23.5458" width="0.1524" layer="1"/>
-<wire x1="37.719" y1="14.859" x2="41.3004" y2="18.4404" width="0.1524" layer="1"/>
-<wire x1="19.5072" y1="31.0896" x2="19.475" y2="31.124" width="0.1524" layer="1"/>
+<wire x1="33.909" y1="14.859" x2="37.719" y2="14.859" width="0.1524" layer="16"/>
+<wire x1="28.2702" y1="9.2202" x2="33.909" y2="14.859" width="0.1524" layer="16"/>
+<wire x1="28.2702" y1="9.2202" x2="28.256" y2="9.16" width="0.1524" layer="16"/>
+<wire x1="20.574" y1="31.0896" x2="19.5072" y2="31.0896" width="0.1524" layer="16"/>
+<wire x1="26.8986" y1="24.765" x2="20.574" y2="31.0896" width="0.1524" layer="16"/>
+<wire x1="40.0812" y1="24.765" x2="26.8986" y2="24.765" width="0.1524" layer="16"/>
+<wire x1="41.3004" y1="23.5458" x2="40.0812" y2="24.765" width="0.1524" layer="16"/>
+<wire x1="41.3004" y1="18.4404" x2="41.3004" y2="23.5458" width="0.1524" layer="16"/>
+<wire x1="37.719" y1="14.859" x2="41.3004" y2="18.4404" width="0.1524" layer="16"/>
+<wire x1="19.5072" y1="31.0896" x2="19.475" y2="31.124" width="0.1524" layer="16"/>
 </signal>
 <signal name="FCAN_B_L">
 <contactref element="ETHERNET" pad="3"/>
@@ -593,39 +604,47 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="38.9382" y1="12.2682" x2="38.989" y2="12.319" width="0.1524" layer="1"/>
 <wire x1="24.3078" y1="9.144" x2="24.256" y2="9.16" width="0.1524" layer="1"/>
 <wire x1="32.385" y1="31.0896" x2="31.3944" y2="31.0896" width="0.1524" layer="1"/>
-<wire x1="38.4048" y1="25.0698" x2="32.385" y2="31.0896" width="0.1524" layer="1"/>
-<wire x1="40.2336" y1="25.0698" x2="38.4048" y2="25.0698" width="0.1524" layer="1"/>
-<wire x1="41.6052" y1="23.6982" x2="40.2336" y2="25.0698" width="0.1524" layer="1"/>
-<wire x1="41.6052" y1="14.859" x2="41.6052" y2="23.6982" width="0.1524" layer="1"/>
-<wire x1="39.0144" y1="12.2682" x2="41.6052" y2="14.859" width="0.1524" layer="1"/>
+<wire x1="38.7096" y1="24.765" x2="32.385" y2="31.0896" width="0.1524" layer="1"/>
+<wire x1="40.0812" y1="24.765" x2="38.7096" y2="24.765" width="0.1524" layer="1"/>
+<wire x1="43.7388" y1="21.1074" x2="40.0812" y2="24.765" width="0.1524" layer="1"/>
+<wire x1="43.7388" y1="14.478" x2="43.7388" y2="21.1074" width="0.1524" layer="1"/>
+<wire x1="42.5196" y1="13.2588" x2="43.7388" y2="14.478" width="0.1524" layer="1"/>
+<wire x1="39.9288" y1="13.2588" x2="42.5196" y2="13.2588" width="0.1524" layer="1"/>
+<wire x1="38.989" y1="12.319" x2="39.9288" y2="13.2588" width="0.1524" layer="1"/>
 <wire x1="31.3944" y1="31.0896" x2="31.325" y2="31.124" width="0.1524" layer="1"/>
-<wire x1="39.0144" y1="12.2682" x2="38.989" y2="12.319" width="0.1524" layer="1"/>
 </signal>
 <signal name="FCAN_B_H">
 <contactref element="ETHERNET" pad="6"/>
 <contactref element="PANDA" pad="3"/>
 <contactref element="INTERCONNECT" pad="6"/>
-<wire x1="41.6052" y1="14.859" x2="42.799" y2="14.859" width="0.1524" layer="16"/>
-<wire x1="35.814" y1="20.6502" x2="41.6052" y2="14.859" width="0.1524" layer="16"/>
-<wire x1="33.4518" y1="20.6502" x2="35.814" y2="20.6502" width="0.1524" layer="16"/>
-<wire x1="31.3944" y1="22.7076" x2="33.4518" y2="20.6502" width="0.1524" layer="16"/>
-<wire x1="31.3944" y1="22.7076" x2="31.325" y2="22.724" width="0.1524" layer="16"/>
-<wire x1="24.3078" y1="15.6972" x2="24.3078" y2="11.2014" width="0.1524" layer="1"/>
-<wire x1="31.3182" y1="22.7076" x2="24.3078" y2="15.6972" width="0.1524" layer="1"/>
+<wire x1="41.6052" y1="14.859" x2="42.799" y2="14.859" width="0.1524" layer="1"/>
+<wire x1="35.814" y1="20.6502" x2="41.6052" y2="14.859" width="0.1524" layer="1"/>
+<wire x1="33.4518" y1="20.6502" x2="35.814" y2="20.6502" width="0.1524" layer="1"/>
+<wire x1="31.3944" y1="22.7076" x2="33.4137" y2="20.6883" width="0.1524" layer="1"/>
+<wire x1="33.4137" y1="20.6883" x2="33.4518" y2="20.6502" width="0.1524" layer="1"/>
+<wire x1="31.3944" y1="22.7076" x2="31.325" y2="22.724" width="0.1524" layer="1"/>
+<wire x1="24.3078" y1="11.5824" x2="24.3078" y2="11.2014" width="0.1524" layer="1"/>
+<wire x1="33.4137" y1="20.6883" x2="24.3078" y2="11.5824" width="0.1524" layer="1"/>
 <wire x1="24.3078" y1="11.2014" x2="24.256" y2="11.16" width="0.1524" layer="1"/>
-<wire x1="31.3182" y1="22.7076" x2="31.325" y2="22.724" width="0.1524" layer="1"/>
 </signal>
 <signal name="AUX2">
 <contactref element="INTERCONNECT" pad="17"/>
-</signal>
-<signal name="AUX1">
-<contactref element="INTERCONNECT" pad="18"/>
 </signal>
 <signal name="AUX3">
 <contactref element="INTERCONNECT" pad="20"/>
 </signal>
 <signal name="AUX4">
 <contactref element="INTERCONNECT" pad="19"/>
+</signal>
+<signal name="GMLAN">
+<contactref element="PANDA" pad="1"/>
+<contactref element="INTERCONNECT" pad="18"/>
+<wire x1="21.717" y1="20.6502" x2="12.2682" y2="11.2014" width="0.1524" layer="1"/>
+<wire x1="37.1094" y1="20.6502" x2="21.717" y2="20.6502" width="0.1524" layer="16"/>
+<wire x1="39.1668" y1="22.7076" x2="37.1094" y2="20.6502" width="0.1524" layer="16"/>
+<wire x1="12.2682" y1="11.2014" x2="12.256" y2="11.16" width="0.1524" layer="1"/>
+<wire x1="39.1668" y1="22.7076" x2="39.225" y2="22.724" width="0.1524" layer="16"/>
+<via x="21.717" y="20.6502" extent="1-16" drill="0.254"/>
 </signal>
 </signals>
 <errors>

@@ -785,13 +785,6 @@
 <label x="53.34" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX1" class="0">
-<segment>
-<pinref part="INTERCONNECT" gate="G$1" pin="P$18"/>
-<wire x1="20.32" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
-<label x="15.24" y="55.88" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="AUX3" class="0">
 <segment>
 <pinref part="INTERCONNECT" gate="G$1" pin="P$20"/>
@@ -804,6 +797,18 @@
 <pinref part="INTERCONNECT" gate="G$1" pin="P$19"/>
 <wire x1="48.26" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
 <label x="53.34" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GMLAN" class="0">
+<segment>
+<pinref part="PANDA" gate="G$1" pin="1"/>
+<wire x1="-48.26" y1="22.86" x2="-53.34" y2="22.86" width="0.1524" layer="91"/>
+<label x="-53.34" y="22.86" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="INTERCONNECT" gate="G$1" pin="P$18"/>
+<wire x1="20.32" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<label x="15.24" y="55.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
