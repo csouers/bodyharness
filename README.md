@@ -11,9 +11,9 @@ This project uses a comma.ai panda (white or grey) for the brains. The supported
 
 ## Board Previews
 ### Main
-![image info](./main.png)
+![image info](./mainboard/main.png)
 ### Honda Type 1
-![image info](./honda_type1.png)
+![image info](./honda/type1/honda_type1.png)
 
 
 As usual, anything on this repository is to be used AT YOUR OWN RISK! You maintain all liability.
