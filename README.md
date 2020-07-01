@@ -10,8 +10,11 @@ Uses a two board setup, much like comma.ai car harness. Main board should stay t
 This project uses a comma.ai panda (white or grey) for the brains. The supported pandas have 3 CAN busses, K-Line, L-Line, and a single GMLAN (operates in place of one of the panda's CAN bus connections).
 
 ## Board Previews
+### Main
+![image info](./main.png)
+### Honda Type 1
+![image info](./honda_type1.png)
 
-![image info](./main_preview.png)
 
 As usual, anything on this repository is to be used AT YOUR OWN RISK! You maintain all liability.
 <!--stackedit_data:
