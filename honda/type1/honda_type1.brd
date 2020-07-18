@@ -555,7 +555,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="8.6868" y1="13.0302" x2="8.736" y2="12.193" width="0.8128" layer="1"/>
 <wire x1="22.479" y1="24.384" x2="22.47" y2="24.43" width="0.8128" layer="1"/>
 </signal>
-<signal name="CAN2_H">
+<signal name="CAN1_H">
 <contactref element="36_B" pad="20"/>
 <contactref element="J2" pad="34"/>
 <contactref element="J1" pad="4"/>
@@ -599,7 +599,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="34.9758" y="19.5072" extent="1-16" drill="0.254"/>
 <via x="35.6616" y="7.3914" extent="1-16" drill="0.254"/>
 </signal>
-<signal name="CAN2_L">
+<signal name="CAN1_L">
 <contactref element="36_B" pad="21"/>
 <contactref element="J2" pad="32"/>
 <contactref element="J1" pad="5"/>
@@ -635,7 +635,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="35.2806" y1="22.5552" x2="35.2806" y2="22.7838" width="0.1524" layer="16"/>
 <via x="35.2806" y="22.7838" extent="1-16" drill="0.254"/>
 </signal>
-<signal name="CAN0_H">
+<signal name="CAN2_H">
 <contactref element="36_B" pad="22"/>
 <contactref element="J2" pad="30"/>
 <contactref element="J1" pad="2"/>
@@ -664,7 +664,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="32.9946" y="20.8788" extent="1-16" drill="0.254"/>
 <via x="42.291" y="6.3246" extent="1-16" drill="0.254"/>
 </signal>
-<signal name="CAN0_L">
+<signal name="CAN2_L">
 <contactref element="36_B" pad="23"/>
 <contactref element="J2" pad="28"/>
 <contactref element="J1" pad="3"/>

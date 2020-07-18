@@ -233,6 +233,122 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="Souers">
+<packages>
+<package name="501645-2620">
+<pad name="21" x="0" y="1" drill="1.2"/>
+<pad name="22" x="0" y="-1" drill="1.2"/>
+<pad name="19" x="-2" y="1" drill="1.2"/>
+<pad name="20" x="-2" y="-1" drill="1.2"/>
+<pad name="24" x="2" y="-1" drill="1.2"/>
+<pad name="23" x="2" y="1" drill="1.2"/>
+<pad name="25" x="4" y="1" drill="1.2"/>
+<pad name="26" x="4" y="-1" drill="1.2"/>
+<pad name="18" x="-4" y="-1" drill="1.2"/>
+<pad name="17" x="-4" y="1" drill="1.2"/>
+<pad name="15" x="-6" y="1" drill="1.2"/>
+<pad name="16" x="-6" y="-1" drill="1.2"/>
+<pad name="14" x="-8" y="-1" drill="1.2"/>
+<pad name="13" x="-8" y="1" drill="1.2"/>
+<pad name="11" x="-10" y="1" drill="1.2"/>
+<pad name="12" x="-10" y="-1" drill="1.2"/>
+<pad name="9" x="-12" y="1" drill="1.2"/>
+<pad name="10" x="-12" y="-1" drill="1.2"/>
+<pad name="7" x="-14" y="1" drill="1.2"/>
+<pad name="8" x="-14" y="-1" drill="1.2"/>
+<pad name="5" x="-16" y="1" drill="1.2"/>
+<pad name="6" x="-16" y="-1" drill="1.2"/>
+<pad name="4" x="-18" y="-1" drill="1.2"/>
+<pad name="3" x="-18" y="1" drill="1.2"/>
+<pad name="1" x="-20" y="1" drill="1.2"/>
+<pad name="2" x="-20" y="-1" drill="1.2"/>
+<hole x="-21.2" y="-4.1" drill="1.3"/>
+<wire x1="6.06" y1="3.1" x2="6.06" y2="-5" width="0.127" layer="21"/>
+<wire x1="6.06" y1="-5" x2="-22" y2="-5" width="0.127" layer="21"/>
+<wire x1="-22" y1="-5" x2="-22" y2="3.1" width="0.127" layer="21"/>
+<text x="6.67" y="-1.08" size="1.27" layer="21">&gt;NAME</text>
+<wire x1="-22" y1="3.1" x2="6.06" y2="3.1" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="501645-2620">
+<pin name="P$1" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="P$2" x="-7.62" y="17.78" length="middle"/>
+<pin name="P$3" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="P$4" x="-7.62" y="15.24" length="middle"/>
+<pin name="P$5" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="P$6" x="-7.62" y="12.7" length="middle"/>
+<pin name="P$7" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="P$8" x="-7.62" y="10.16" length="middle"/>
+<pin name="P$9" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="P$10" x="-7.62" y="7.62" length="middle"/>
+<pin name="P$11" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="P$12" x="-7.62" y="5.08" length="middle"/>
+<pin name="P$13" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="P$14" x="-7.62" y="2.54" length="middle"/>
+<pin name="P$15" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="P$16" x="-7.62" y="0" length="middle"/>
+<pin name="P$17" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$18" x="-7.62" y="-2.54" length="middle"/>
+<pin name="P$19" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$20" x="-7.62" y="-5.08" length="middle"/>
+<pin name="P$21" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="P$22" x="-7.62" y="-7.62" length="middle"/>
+<pin name="P$23" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$24" x="-7.62" y="-10.16" length="middle"/>
+<pin name="P$25" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="P$26" x="-7.62" y="-12.7" length="middle"/>
+<wire x1="-2.54" y1="22.86" x2="12.7" y2="22.86" width="0.254" layer="94"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="22.86" width="0.254" layer="94"/>
+<text x="-2.54" y="25.4" size="1.27" layer="94">&gt;NAME</text>
+<text x="-2.54" y="-20.32" size="1.27" layer="94">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="501645-2620">
+<gates>
+<gate name="G$1" symbol="501645-2620" x="-5.08" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="501645-2620">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$10" pad="10"/>
+<connect gate="G$1" pin="P$11" pad="11"/>
+<connect gate="G$1" pin="P$12" pad="12"/>
+<connect gate="G$1" pin="P$13" pad="13"/>
+<connect gate="G$1" pin="P$14" pad="14"/>
+<connect gate="G$1" pin="P$15" pad="15"/>
+<connect gate="G$1" pin="P$16" pad="16"/>
+<connect gate="G$1" pin="P$17" pad="17"/>
+<connect gate="G$1" pin="P$18" pad="18"/>
+<connect gate="G$1" pin="P$19" pad="19"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$20" pad="20"/>
+<connect gate="G$1" pin="P$21" pad="21"/>
+<connect gate="G$1" pin="P$22" pad="22"/>
+<connect gate="G$1" pin="P$23" pad="23"/>
+<connect gate="G$1" pin="P$24" pad="24"/>
+<connect gate="G$1" pin="P$25" pad="25"/>
+<connect gate="G$1" pin="P$26" pad="26"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
+<connect gate="G$1" pin="P$8" pad="8"/>
+<connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 <library name="RJHSE-3380">
 <description>&lt;AMPHENOL ICC - RJHSE-3380 - Modular Connector, RJ45 Jack, 1 x 1 Port, 8P8C, Cat5, Through Hole Mount&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -352,22 +468,19 @@ Source: &lt;a href="https://componentsearchengine.com//RJHSE-3380.pdf"&gt; Datas
 </classes>
 <parts>
 <part name="PANDA" library="comma.ai" deviceset="OBDII-FEMALE" device="FEMALE"/>
+<part name="J1" library="Souers" deviceset="501645-2620" device=""/>
 <part name="J2" library="RJHSE-3380" deviceset="RJHSE-3380" device=""/>
 <part name="J3" library="RJHSE-3380" deviceset="RJHSE-3380" device=""/>
-<part name="J1" library="RJHSE-3380" deviceset="RJHSE-3380" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="20.32" y="33.02" size="1.778" layer="95">CAN0 - car harness CAN0
-CAN1 - B-CAN
-CAN2 - F-CAN-A/OBD2 F-CAN-A</text>
 </plain>
 <instances>
 <instance part="PANDA" gate="G$1" x="-25.4" y="12.7"/>
+<instance part="J1" gate="G$1" x="30.48" y="58.42"/>
 <instance part="J2" gate="G$1" x="-30.48" y="91.44"/>
 <instance part="J3" gate="G$1" x="-30.48" y="63.5"/>
-<instance part="J1" gate="G$1" x="20.32" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -382,6 +495,56 @@ CAN2 - F-CAN-A/OBD2 F-CAN-A</text>
 <pinref part="PANDA" gate="G$1" pin="SIGGND"/>
 <wire x1="-48.26" y1="12.7" x2="-53.34" y2="12.7" width="0.1524" layer="91"/>
 <label x="-53.34" y="12.7" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$3"/>
+<wire x1="48.26" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+<label x="53.34" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$4"/>
+<wire x1="22.86" y1="73.66" x2="15.24" y2="73.66" width="0.1524" layer="91"/>
+<label x="15.24" y="73.66" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$8"/>
+<wire x1="22.86" y1="68.58" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
+<label x="15.24" y="68.58" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$7"/>
+<wire x1="48.26" y1="68.58" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
+<label x="53.34" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$11"/>
+<wire x1="48.26" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
+<label x="53.34" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$12"/>
+<wire x1="22.86" y1="63.5" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
+<label x="15.24" y="63.5" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$21"/>
+<wire x1="48.26" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
+<label x="53.34" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$22"/>
+<wire x1="22.86" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
+<label x="15.24" y="50.8" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$16"/>
+<wire x1="22.86" y1="58.42" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
+<label x="15.24" y="58.42" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$15"/>
+<wire x1="48.26" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
+<label x="53.34" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
@@ -403,22 +566,17 @@ CAN2 - F-CAN-A/OBD2 F-CAN-A</text>
 <wire x1="-30.48" y1="53.34" x2="-33.02" y2="53.34" width="0.1524" layer="91"/>
 <label x="-33.02" y="53.34" size="1.778" layer="95" rot="R180"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="43.18" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
-<label x="45.72" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="20.32" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
-<label x="17.78" y="58.42" size="1.778" layer="95" rot="R180"/>
-</segment>
 </net>
 <net name="L_LINE" class="0">
 <segment>
 <pinref part="PANDA" gate="G$1" pin="ISOL-LINE"/>
 <wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.1524" layer="91"/>
 <label x="2.54" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$14"/>
+<wire x1="22.86" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<label x="15.24" y="60.96" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="K_LINE" class="0">
@@ -427,6 +585,11 @@ CAN2 - F-CAN-A/OBD2 F-CAN-A</text>
 <wire x1="-48.26" y1="7.62" x2="-53.34" y2="7.62" width="0.1524" layer="91"/>
 <label x="-53.34" y="7.62" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$13"/>
+<wire x1="48.26" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+<label x="53.34" y="60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IGN" class="1">
 <segment>
@@ -434,12 +597,32 @@ CAN2 - F-CAN-A/OBD2 F-CAN-A</text>
 <wire x1="-48.26" y1="5.08" x2="-53.34" y2="5.08" width="0.1524" layer="91"/>
 <label x="-53.34" y="5.08" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$23"/>
+<wire x1="48.26" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
+<label x="53.34" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$24"/>
+<wire x1="22.86" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
+<label x="15.24" y="48.26" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="VIN" class="1">
 <segment>
 <pinref part="PANDA" gate="G$1" pin="BATTPOWER"/>
 <wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="91"/>
 <label x="2.54" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$25"/>
+<wire x1="48.26" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
+<label x="53.34" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$26"/>
+<wire x1="22.86" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
+<label x="15.24" y="45.72" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="7"/>
@@ -461,16 +644,6 @@ CAN2 - F-CAN-A/OBD2 F-CAN-A</text>
 <wire x1="-7.62" y1="63.5" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
 <label x="-5.08" y="63.5" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
-<label x="17.78" y="73.66" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="20.32" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<label x="17.78" y="60.96" size="1.778" layer="95" rot="R180"/>
-</segment>
 </net>
 <net name="CAN2_H" class="0">
 <segment>
@@ -479,9 +652,33 @@ CAN2 - F-CAN-A/OBD2 F-CAN-A</text>
 <label x="2.54" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
-<label x="17.78" y="71.12" size="1.778" layer="95" rot="R180"/>
+<pinref part="J1" gate="G$1" pin="P$10"/>
+<wire x1="22.86" y1="66.04" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
+<label x="15.24" y="66.04" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="CAN2_L" class="0">
+<segment>
+<pinref part="PANDA" gate="G$1" pin="13"/>
+<wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="91"/>
+<label x="2.54" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$9"/>
+<wire x1="48.26" y1="66.04" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
+<label x="53.34" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CAN0_H" class="0">
+<segment>
+<pinref part="PANDA" gate="G$1" pin="CANHIGH"/>
+<wire x1="-48.26" y1="10.16" x2="-53.34" y2="10.16" width="0.1524" layer="91"/>
+<label x="-53.34" y="10.16" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$2"/>
+<wire x1="22.86" y1="76.2" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
+<label x="15.24" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
@@ -494,33 +691,60 @@ CAN2 - F-CAN-A/OBD2 F-CAN-A</text>
 <label x="-33.02" y="55.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="CAN2_L" class="0">
+<net name="CAN0_L" class="0">
 <segment>
-<pinref part="PANDA" gate="G$1" pin="13"/>
-<wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="91"/>
-<label x="2.54" y="12.7" size="1.778" layer="95"/>
+<pinref part="PANDA" gate="G$1" pin="CANLOW"/>
+<wire x1="-2.54" y1="10.16" x2="2.54" y2="10.16" width="0.1524" layer="91"/>
+<label x="2.54" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="-30.48" y1="60.96" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
-<label x="-33.02" y="60.96" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="20.32" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
-<label x="17.78" y="68.58" size="1.778" layer="95" rot="R180"/>
+<pinref part="J1" gate="G$1" pin="P$1"/>
+<wire x1="48.26" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
+<label x="53.34" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="-30.48" y1="88.9" x2="-33.02" y2="88.9" width="0.1524" layer="91"/>
 <label x="-33.02" y="88.9" size="1.778" layer="95" rot="R180"/>
 </segment>
-</net>
-<net name="CAN0_H" class="0">
 <segment>
-<pinref part="PANDA" gate="G$1" pin="CANHIGH"/>
-<wire x1="-48.26" y1="10.16" x2="-53.34" y2="10.16" width="0.1524" layer="91"/>
-<label x="-53.34" y="10.16" size="1.778" layer="95" rot="R180"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="-30.48" y1="60.96" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
+<label x="-33.02" y="60.96" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="CAN1_L" class="0">
+<segment>
+<pinref part="PANDA" gate="G$1" pin="11"/>
+<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
+<label x="2.54" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$5"/>
+<wire x1="48.26" y1="71.12" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
+<label x="53.34" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="-30.48" y1="86.36" x2="-33.02" y2="86.36" width="0.1524" layer="91"/>
+<label x="-33.02" y="86.36" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="-30.48" y1="58.42" x2="-33.02" y2="58.42" width="0.1524" layer="91"/>
+<label x="-33.02" y="58.42" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="CAN1_H" class="0">
+<segment>
+<pinref part="PANDA" gate="G$1" pin="3"/>
+<wire x1="-48.26" y1="17.78" x2="-53.34" y2="17.78" width="0.1524" layer="91"/>
+<label x="-53.34" y="17.78" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$6"/>
+<wire x1="22.86" y1="71.12" x2="15.24" y2="71.12" width="0.1524" layer="91"/>
+<label x="15.24" y="71.12" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="6"/>
@@ -533,16 +757,25 @@ CAN2 - F-CAN-A/OBD2 F-CAN-A</text>
 <label x="-33.02" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="CAN1_H" class="0">
+<net name="AUX2" class="0">
 <segment>
-<pinref part="PANDA" gate="G$1" pin="3"/>
-<wire x1="-48.26" y1="17.78" x2="-53.34" y2="17.78" width="0.1524" layer="91"/>
-<label x="-53.34" y="17.78" size="1.778" layer="95" rot="R180"/>
+<pinref part="J1" gate="G$1" pin="P$17"/>
+<wire x1="48.26" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
+<label x="53.34" y="55.88" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="AUX3" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="20.32" y1="66.04" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
-<label x="17.78" y="66.04" size="1.778" layer="95" rot="R180"/>
+<pinref part="J1" gate="G$1" pin="P$20"/>
+<wire x1="22.86" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<label x="15.24" y="53.34" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="AUX4" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="P$19"/>
+<wire x1="48.26" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
+<label x="53.34" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GMLAN" class="0">
@@ -551,34 +784,10 @@ CAN2 - F-CAN-A/OBD2 F-CAN-A</text>
 <wire x1="-48.26" y1="22.86" x2="-53.34" y2="22.86" width="0.1524" layer="91"/>
 <label x="-53.34" y="22.86" size="1.778" layer="95" rot="R180"/>
 </segment>
-</net>
-<net name="CAN0_L" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="-30.48" y1="86.36" x2="-33.02" y2="86.36" width="0.1524" layer="91"/>
-<label x="-33.02" y="86.36" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="-30.48" y1="58.42" x2="-33.02" y2="58.42" width="0.1524" layer="91"/>
-<label x="-33.02" y="58.42" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="PANDA" gate="G$1" pin="CANLOW"/>
-<wire x1="-2.54" y1="10.16" x2="2.54" y2="10.16" width="0.1524" layer="91"/>
-<label x="2.54" y="10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="CAN1_L" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="20.32" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
-<label x="17.78" y="63.5" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="PANDA" gate="G$1" pin="11"/>
-<wire x1="-2.54" y1="17.78" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
-<label x="2.54" y="17.78" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="P$18"/>
+<wire x1="22.86" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<label x="15.24" y="55.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
@@ -586,10 +795,4 @@ CAN2 - F-CAN-A/OBD2 F-CAN-A</text>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>

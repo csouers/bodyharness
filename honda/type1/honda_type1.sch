@@ -582,7 +582,7 @@ Source: &lt;a href="https://componentsearchengine.com//RJHSE-3380.pdf"&gt; Datas
 <label x="30.48" y="-48.26" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="CAN2_H" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <pinref part="36_B" gate="G$1" pin="P$20"/>
 <wire x1="5.08" y1="-10.16" x2="0" y2="-10.16" width="0.1524" layer="91"/>
@@ -599,7 +599,7 @@ Source: &lt;a href="https://componentsearchengine.com//RJHSE-3380.pdf"&gt; Datas
 <label x="30.48" y="-43.18" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="CAN2_L" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <pinref part="36_B" gate="G$1" pin="P$21"/>
 <wire x1="5.08" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="91"/>
@@ -616,7 +616,7 @@ Source: &lt;a href="https://componentsearchengine.com//RJHSE-3380.pdf"&gt; Datas
 <label x="30.48" y="-45.72" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="CAN0_H" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <pinref part="36_B" gate="G$1" pin="P$22"/>
 <wire x1="5.08" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="91"/>
@@ -633,7 +633,7 @@ Source: &lt;a href="https://componentsearchengine.com//RJHSE-3380.pdf"&gt; Datas
 <label x="30.48" y="-38.1" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="CAN0_L" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <pinref part="36_B" gate="G$1" pin="P$23"/>
 <wire x1="5.08" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="91"/>
