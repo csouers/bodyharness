@@ -17,7 +17,7 @@ def honda_body_checksum(d, l):
 ```
 ### c++
 ```
-unsigned int honda_checksum(uint64_t d, int l) {
+unsigned int honda_body_checksum(uint64_t d, int l) {
   d >>= ((8-l)*8); // remove padding
   d >>= 4; // remove checksum
 
