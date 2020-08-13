@@ -1,8 +1,17 @@
+# This script was supposed to reveal if we could control the navigation screen in the meter (instrument panel)
+# However, nothing I sent had any affect. The hardware uses a high speed coaxial display connection from the headunit to the meter.
+# Does the meter really use the CAN data for this? Or is it just an intermediary to be read back into the headunit and then
+# pipe the data over the display connection?
+
+# Some ideas on why it didn't work if the former is true:
+# - I didn't send the full next turn packet on 0x12f95954
+# - I didn't send the other multi-frame packet on 0x12f95c54 (I don't yet know what this frame is used for)
+
 from panda import Panda
 import time
 p = Panda()
 # not needed if your panda firmware defaults to an appropriate safety model
-#p.set_safety_mode(Panda.SAFETY_ALLOUTPUT)
+# p.set_safety_mode(Panda.SAFETY_ALLOUTPUT)
 MIN_BYTE = 0x5f
 MAX_BYTE = 0xff
 
@@ -18,7 +27,7 @@ for x in range(MIN_BYTE, MAX_BYTE+1):
     dat += bytes([x])
     dat += bytes([0x40])
     dat += bytes([0x03])
-    p.can_send(0x12f95954, dat , 1)
+    p.can_send(0x12f95954, dat, 1)
 
     dat2 = bytes([0x01])
     dat2 += bytes([0x02])

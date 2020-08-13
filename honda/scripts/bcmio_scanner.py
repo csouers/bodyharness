@@ -22,6 +22,6 @@ for x in range(MIN_BYTE, MAX_BYTE+1):
     p.can_send(0x16F118F0, dat , 1)
     time.sleep(1)
     # stop
-    p.can_send(0x16F118F0, b'\x20\x00\x00\x00\x00\x00\x00\x00', 1)
+    p.can_send(0x16F118F0, b'\x20', 1)
     time.sleep(0.1)
     input("Next?")
