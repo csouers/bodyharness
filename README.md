@@ -20,9 +20,10 @@ Honda Accord 2018+ (US Market)<br>
 
 ## Compatibility
 ##### Based on vehicle generation. Vehicles may vary. Check this first!
-| Make | Model | Location |
-| Acura     | ILX 2016-18                   |                                                                                              |
-| Acura     | RDX 2016-18                   |                                                                                              |
+| Make | Model | B-CAN Connection Location |
+| -- | -- | -- |
+| Acura     | ILX 2016-18                   | ?                                                                                             |
+| Acura     | RDX 2016-18                   | ?                                                                                             |
 | Honda     | Accord 2018-20                | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |
 | Honda     | Accord Hybrid 2018-20         | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |
 | Honda     | Civic Hatchback 2017-19       | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |
@@ -41,7 +42,7 @@ Honda Accord 2018+ (US Market)<br>
 
 As usual, anything on this repository is to be used AT YOUR OWN RISK! You maintain all liability.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTQwNTgwMSw4MjI2NDQ3OTEsLTk1Nj
+eyJoaXN0b3J5IjpbMTAyMDg2MzIxNCw4MjI2NDQ3OTEsLTk1Nj
 MwMjA3NiwtMTA4NjM2NzEwMiwxNDYwOTY0NjcxLDE2NzI0MDkw
 NjIsLTE4NDM3OTQyNTAsLTIxNTEzMzYxMSwtMTEwMjgwNDYyNy
 wxNTMyNDM0Mjk2XX0=
