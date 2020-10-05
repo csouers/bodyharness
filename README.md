@@ -22,12 +22,13 @@ Honda Accord 2018+ (US Market)<br>
 ##### Based on vehicle generation. Vehicles may vary. Check this first!
 
 | Make | Model | Kit type |
-| Honda |--|--|
-
+|--------|---------|------|
+| Honda | x | x |
+| -- | -- | -- |
 
 As usual, anything on this repository is to be used AT YOUR OWN RISK! You maintain all liability.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg0MjEwNTIsLTk1NjMwMjA3NiwtMT
+eyJoaXN0b3J5IjpbLTE0OTQyMjYwOTksLTk1NjMwMjA3NiwtMT
 A4NjM2NzEwMiwxNDYwOTY0NjcxLDE2NzI0MDkwNjIsLTE4NDM3
 OTQyNTAsLTIxNTEzMzYxMSwtMTEwMjgwNDYyNywxNTMyNDM0Mj
 k2XX0=
