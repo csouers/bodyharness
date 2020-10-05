@@ -23,13 +23,11 @@ Honda Accord 2018+ (US Market)<br>
 
 | Make | Model | Kit type |
 |--------|---------|------|
-| Honda | x | x |
-| -- | -- | -- |
-
+| Honda |  | x |
 As usual, anything on this repository is to be used AT YOUR OWN RISK! You maintain all liability.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQyMjYwOTksLTk1NjMwMjA3NiwtMT
-A4NjM2NzEwMiwxNDYwOTY0NjcxLDE2NzI0MDkwNjIsLTE4NDM3
-OTQyNTAsLTIxNTEzMzYxMSwtMTEwMjgwNDYyNywxNTMyNDM0Mj
-k2XX0=
+eyJoaXN0b3J5IjpbODIyNjQ0NzkxLC05NTYzMDIwNzYsLTEwOD
+YzNjcxMDIsMTQ2MDk2NDY3MSwxNjcyNDA5MDYyLC0xODQzNzk0
+MjUwLC0yMTUxMzM2MTEsLTExMDI4MDQ2MjcsMTUzMjQzNDI5Nl
+19
 -->
