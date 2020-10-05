@@ -18,10 +18,12 @@ Honda CR-V 2017 (US Market)<br>
 Honda Accord 2018+ (US Market)<br>
 ![image info](./honda/type1/honda_type1.png)
 
-
+## Compatibility
+##### Based on generation. Vehicles may v
 As usual, anything on this repository is to be used AT YOUR OWN RISK! You maintain all liability.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjMwMjA3NiwtMTA4NjM2NzEwMiwxND
-YwOTY0NjcxLDE2NzI0MDkwNjIsLTE4NDM3OTQyNTAsLTIxNTEz
-MzYxMSwtMTEwMjgwNDYyNywxNTMyNDM0Mjk2XX0=
+eyJoaXN0b3J5IjpbLTE5NDk0NDQzNzQsLTk1NjMwMjA3NiwtMT
+A4NjM2NzEwMiwxNDYwOTY0NjcxLDE2NzI0MDkwNjIsLTE4NDM3
+OTQyNTAsLTIxNTEzMzYxMSwtMTEwMjgwNDYyNywxNTMyNDM0Mj
+k2XX0=
 -->
