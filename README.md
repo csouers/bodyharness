@@ -21,27 +21,28 @@ Honda Accord 2018+ (US Market)<br>
 ## Compatibility
 ##### Based on vehicle generation. Vehicles may vary. Check this first!
 | Make | Model | Location |
-| Acura     | ILX 2016-18                   | |
-| Acura     | RDX 2016-18                   | |
-| Honda     | Accord 2018-20                | Option Connector (Pinout A) PINK 2+ / BLUE 3- |
-| Honda     | Accord Hybrid 2018-20         | Option Connector (Pinout A) PINK 2+ / BLUE 3- |
-| Honda     | Civic Hatchback 2017-19       | Option Connector (Pinout A) PINK 2+ / BLUE 3- |
-| Honda     | Civic Sedan/Coupe 2016-18     | Option Connector (Pinout A) PINK 2+ / BLUE 3- |
-| Honda     | Civic Sedan/Coupe 2019-20     | Option Connector (Pinout A) PINK 2+ / BLUE 3- |
-| Honda     | CR-V 2015-16                  | (DIY) at BCM/Under Dash Fuse Box or other module |
-| Honda     | CR-V 2017-20                  | Option Connector (Pinout A) PINK 2+ / BLUE 3- |
-| Honda     | CR-V Hybrid 2017-2019         | Option Connector (Pinout A) PINK 2+ / BLUE 3- |
+| Acura     | ILX 2016-18                   |                                                                                              |
+| Acura     | RDX 2016-18                   |                                                                                              |
+| Honda     | Accord 2018-20                | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |
+| Honda     | Accord Hybrid 2018-20         | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |
+| Honda     | Civic Hatchback 2017-19       | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |
+| Honda     | Civic Sedan/Coupe 2016-18     | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |
+| Honda     | Civic Sedan/Coupe 2019-20     | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |                                              
+| Honda     | CR-V 2015-16                  | (DIY) at BCM/Under Dash Fuse Box or other module                                             |
+| Honda     | CR-V 2017-20                  | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |                                              
+| Honda     | CR-V Hybrid 2017-2019         | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |
 | Honda     | Fit 2018-19                   | (DIY) 2018 at BCM/Under Dash Fuse/Relay Box or other module - 2019+ at ADAS Camera Connector |
-| Honda     | HR-V 2019-2021                | (DIY) at ADAS Camera Connector |
-| Honda     | Insight 2019-20               | (DIY) at BCM/Under Dash Fuse/Relay Box or other module |
-| Honda     | Odyssey 2018-20               | Option Connector (Pinout B) PINK 2+ / BLUE 5- |
-| Honda     | Passport 2019                 | (DIY) BCM/Under Dash Fuse/Relay Box or other module - 2020+ at ADAS Camera Connector |
-| Honda     | Pilot 2016-19                 | (DIY) BCM/Under Dash Fuse/Relay or other module - 2019+ at ADAS Camera Connector |
-| Honda     | Ridgeline 2017-20             | (DIY) BCM/Under Dash Fuse/Relay or other module - 2020+ at ADAS Camera Connector |
+| Honda     | HR-V 2019-2021                | (DIY) at ADAS Camera Connector                                                               |
+| Honda     | Insight 2019-20               | (DIY) at BCM/Under Dash Fuse/Relay Box or other module                                       |
+| Honda     | Odyssey 2018-20               | Option Connector (Pinout B) PINK 2+ / BLUE 5-                                                |
+| Honda     | Passport 2019                 | (DIY) BCM/Under Dash Fuse/Relay Box or other module - 2020+ at ADAS Camera Connector         |
+| Honda     | Pilot 2016-19                 | (DIY) BCM/Under Dash Fuse/Relay or other module - 2019+ at ADAS Camera Connector             |
+| Honda     | Ridgeline 2017-20             | (DIY) BCM/Under Dash Fuse/Relay or other module - 2020+ at ADAS Camera Connector             |
+
 As usual, anything on this repository is to be used AT YOUR OWN RISK! You maintain all liability.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNjc1NzMxLDgyMjY0NDc5MSwtOTU2Mz
-AyMDc2LC0xMDg2MzY3MTAyLDE0NjA5NjQ2NzEsMTY3MjQwOTA2
-MiwtMTg0Mzc5NDI1MCwtMjE1MTMzNjExLC0xMTAyODA0NjI3LD
-E1MzI0MzQyOTZdfQ==
+eyJoaXN0b3J5IjpbLTM5OTQwNTgwMSw4MjI2NDQ3OTEsLTk1Nj
+MwMjA3NiwtMTA4NjM2NzEwMiwxNDYwOTY0NjcxLDE2NzI0MDkw
+NjIsLTE4NDM3OTQyNTAsLTIxNTEzMzYxMSwtMTEwMjgwNDYyNy
+wxNTMyNDM0Mjk2XX0=
 -->
