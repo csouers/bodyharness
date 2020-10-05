@@ -19,10 +19,15 @@ Honda Accord 2018+ (US Market)<br>
 ![image info](./honda/type1/honda_type1.png)
 
 ## Compatibility
-##### Based on generation. Vehicles may v
+##### Based on vehicle generation. Vehicles may vary. Check this first!
+
+| Make | Model | Kit type |
+| Honda |--|--|
+
+
 As usual, anything on this repository is to be used AT YOUR OWN RISK! You maintain all liability.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk0NDQzNzQsLTk1NjMwMjA3NiwtMT
+eyJoaXN0b3J5IjpbLTEzNjg0MjEwNTIsLTk1NjMwMjA3NiwtMT
 A4NjM2NzEwMiwxNDYwOTY0NjcxLDE2NzI0MDkwNjIsLTE4NDM3
 OTQyNTAsLTIxNTEzMzYxMSwtMTEwMjgwNDYyNywxNTMyNDM0Mj
 k2XX0=
