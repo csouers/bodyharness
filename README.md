@@ -1,7 +1,7 @@
 
 # bodyharness (Work in Progress)
 
-## Expand your openpilot experience with access to your vehicles chassis CAN bus
+## Expand your openpilot experience with access to your vehicle's chassis CAN bus
 
 This hardware, together with the necessary software, makes it possible to electronically control turn signals, door locks, and more. Future software will support features such as low fuel warnings, unlocked vehicle notifications, and headlights on during comma prime snapshots.
 
