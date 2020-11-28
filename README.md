@@ -3,6 +3,8 @@
 
 ## Expand your openpilot experience with access to your vehicle's chassis CAN bus
 
+Available for purchase at https://autofocuser.com!
+
 This hardware, together with the necessary software, makes it possible to electronically control turn signals, door locks, and more. Future software will support features such as low fuel warnings, unlocked vehicle notifications, and headlights on during comma prime snapshots.
 
 Currently, a comma.ai panda (white or grey) is the only required accessory. The black panda can be supported with additional effort (no plans for this at the moment). The supported pandas have 3 CAN bus transceivers, k-line and l-line connections, and a single GMLAN connection (operates in place of one of the panda's CAN bus connections). Future hardware revisions will support LIN (k-line and l-line).
@@ -11,8 +13,8 @@ Currently, a comma.ai panda (white or grey) is the only required accessory. The 
 ##### Based on vehicle generation. Vehicles may vary. Check your car first!
 | Make | Model | B-CAN Connection Location |
 | -- | -- | -- |
-| Acura     | ILX 2016-18                   | ?                                                                                             |
-| Acura     | RDX 2016-18                   | ?                                                                                             |
+| Acura     | ILX 2016-18                   | TBD                                                                                             |
+| Acura     | RDX 2016-18                   | TBD                                                                                           |
 | Honda     | Accord 2018-20                | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |
 | Honda     | Accord Hybrid 2018-20         | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |
 | Honda     | Civic Hatchback 2017-19       | Option Connector (Pinout A) PINK 2+ / BLUE 3-                                                |
