@@ -419,8 +419,8 @@
 <pad name="2" x="2" y="0" drill="1.08" diameter="1.62"/>
 <pad name="3" x="4" y="0" drill="1.08" diameter="1.62"/>
 <pad name="4" x="6" y="0" drill="1.08" diameter="1.62"/>
-<hole x="-2.85" y="0.9" drill="2.63"/>
-<hole x="8.85" y="0.9" drill="2.63"/>
+<hole x="-2.85" y="0.9" drill="2.15"/>
+<hole x="8.85" y="0.9" drill="2.15"/>
 <text x="3" y="-6.325" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="3" y="-6.325" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-4.31" y1="2.3" x2="10.31" y2="2.3" width="0.2" layer="51"/>
@@ -489,7 +489,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/34793-0041.pd
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.3048" drill="0">
+<class number="0" name="default" width="0.508" drill="0">
 </class>
 <class number="1" name="PWR" width="0.8128" drill="0">
 <clearance class="1" value="0.254"/>
@@ -597,12 +597,22 @@ CAN2 - OBD2 F-CAN-A</text>
 <wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.1524" layer="91"/>
 <label x="2.54" y="7.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="OPTION" gate="G$1" pin="4"/>
+<wire x1="22.86" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
+<label x="20.32" y="66.04" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="K_LINE" class="0">
 <segment>
 <pinref part="PANDA" gate="G$1" pin="ISOK-LINE"/>
 <wire x1="-48.26" y1="7.62" x2="-53.34" y2="7.62" width="0.1524" layer="91"/>
 <label x="-53.34" y="7.62" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="OPTION" gate="G$1" pin="3"/>
+<wire x1="22.86" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
+<label x="20.32" y="68.58" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="IGN" class="1">
@@ -627,11 +637,6 @@ CAN2 - OBD2 F-CAN-A</text>
 <pinref part="CPV2" gate="G$1" pin="8"/>
 <wire x1="-30.48" y1="45.72" x2="-33.02" y2="45.72" width="0.1524" layer="91"/>
 <label x="-33.02" y="45.72" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="LEGACY" gate="G$1" pin="2"/>
-<wire x1="-30.48" y1="88.9" x2="-33.02" y2="88.9" width="0.1524" layer="91"/>
-<label x="-33.02" y="88.9" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="7"/>
@@ -711,11 +716,6 @@ CAN2 - OBD2 F-CAN-A</text>
 <wire x1="22.86" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
 <label x="20.32" y="73.66" size="1.778" layer="95" rot="R180"/>
 </segment>
-<segment>
-<pinref part="OPTION" gate="G$1" pin="3"/>
-<wire x1="22.86" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
-<label x="20.32" y="68.58" size="1.778" layer="95" rot="R180"/>
-</segment>
 </net>
 <net name="GMLAN" class="0">
 <segment>
@@ -757,15 +757,16 @@ CAN2 - OBD2 F-CAN-A</text>
 <wire x1="22.86" y1="71.12" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
 <label x="20.32" y="71.12" size="1.778" layer="95" rot="R180"/>
 </segment>
-<segment>
-<pinref part="OPTION" gate="G$1" pin="4"/>
-<wire x1="22.86" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
-<label x="20.32" y="66.04" size="1.778" layer="95" rot="R180"/>
-</segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,-48.26,22.86,GMLAN,,,,,"/>
+<approved hash="106,1,-48.26,5.08,IGN,,,,,"/>
+<approved hash="106,1,-48.26,7.62,K_LINE,,,,,"/>
+<approved hash="106,1,-2.54,7.62,L_LINE,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -12,3 +12,5 @@
 *.GTP
 *.GTS
 *.XLN
+*.pyc
+secrets/
