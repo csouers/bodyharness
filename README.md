@@ -4,7 +4,7 @@
 
 Available for purchase at https://autofocuser.com!
 
-This hardware, together with the necessary software, makes it possible to electronically control turn signals, door locks, and more. Future software will support features such as low fuel warnings, unlocked vehicle notifications, and headlights on during comma prime snapshots.
+This hardware, together with the necessary software and vehicle architecture, makes it possible to electronically control turn signals, door locks, and more. Future software will support features such as low fuel warnings, unlocked vehicle notifications, and headlights on during comma prime snapshots.
 
 Currently, a comma.ai panda (white or grey) is the only required accessory. The black panda can be supported with additional effort (no plans for this at the moment). The supported pandas have 3 CAN bus transceivers, k-line and l-line connections, and a single GMLAN connection (operates in place of one of the panda's CAN bus connections). Future hardware revisions will support LIN (k-line and l-line).
 
