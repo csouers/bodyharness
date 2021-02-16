@@ -1,6 +1,5 @@
 
-# bodyharness (Work in Progress)
-
+# bodyharness
 ## Expand your openpilot experience with access to your vehicle's chassis CAN bus
 
 Available for purchase at https://autofocuser.com!
